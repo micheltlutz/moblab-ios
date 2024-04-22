@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0A72CE52BD3D5B700F0878B /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72CE42BD3D5B700F0878B /* AppManager.swift */; };
+		D0A72CE82BD3D5F100F0878B /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72CE72BD3D5F100F0878B /* MainCoordinator.swift */; };
+		D0A72CEA2BD3D62100F0878B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72CE92BD3D62100F0878B /* MainViewController.swift */; };
+		D0A72CEE2BD3D72C00F0878B /* HomeScene in Frameworks */ = {isa = PBXBuildFile; productRef = D0A72CED2BD3D72C00F0878B /* HomeScene */; };
+		D0A72CF02BD3D72C00F0878B /* ProjectCore in Frameworks */ = {isa = PBXBuildFile; productRef = D0A72CEF2BD3D72C00F0878B /* ProjectCore */; };
+		D0A72CF32BD3D9F800F0878B /* SettingsScene in Frameworks */ = {isa = PBXBuildFile; productRef = D0A72CF22BD3D9F800F0878B /* SettingsScene */; };
 		D0CD35632BC9E80E005F9E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD35622BC9E80E005F9E86 /* AppDelegate.swift */; };
 		D0CD35652BC9E80E005F9E86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD35642BC9E80E005F9E86 /* SceneDelegate.swift */; };
-		D0CD35672BC9E80E005F9E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD35662BC9E80E005F9E86 /* ViewController.swift */; };
-		D0CD356A2BC9E80E005F9E86 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0CD35692BC9E80E005F9E86 /* Base */; };
 		D0CD356C2BC9E813005F9E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CD356B2BC9E813005F9E86 /* Assets.xcassets */; };
 		D0CD356F2BC9E813005F9E86 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0CD356E2BC9E813005F9E86 /* Base */; };
 		D0CD357A2BC9E814005F9E86 /* MobLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CD35792BC9E814005F9E86 /* MobLabTests.swift */; };
@@ -36,11 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0A72CE12BD3D42300F0878B /* HomeScene */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HomeScene; sourceTree = "<group>"; };
+		D0A72CE32BD3D46D00F0878B /* LoginScene */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LoginScene; sourceTree = "<group>"; };
+		D0A72CE42BD3D5B700F0878B /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		D0A72CE72BD3D5F100F0878B /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		D0A72CE92BD3D62100F0878B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D0A72CEB2BD3D68000F0878B /* ProjectCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ProjectCore; sourceTree = "<group>"; };
+		D0A72CF12BD3D8C600F0878B /* SettingsScene */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SettingsScene; sourceTree = "<group>"; };
 		D0CD355F2BC9E80E005F9E86 /* MobLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CD35622BC9E80E005F9E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0CD35642BC9E80E005F9E86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0CD35662BC9E80E005F9E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0CD35692BC9E80E005F9E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0CD356B2BC9E813005F9E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0CD356E2BC9E813005F9E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0CD35702BC9E813005F9E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A72CEE2BD3D72C00F0878B /* HomeScene in Frameworks */,
+				D0A72CF02BD3D72C00F0878B /* ProjectCore in Frameworks */,
+				D0A72CF32BD3D9F800F0878B /* SettingsScene in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,13 +89,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0A72CE02BD3D3DC00F0878B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D0A72CF12BD3D8C600F0878B /* SettingsScene */,
+				D0A72CEB2BD3D68000F0878B /* ProjectCore */,
+				D0A72CE32BD3D46D00F0878B /* LoginScene */,
+				D0A72CE12BD3D42300F0878B /* HomeScene */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D0A72CE62BD3D5E000F0878B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D0A72CE72BD3D5F100F0878B /* MainCoordinator.swift */,
+				D0A72CE92BD3D62100F0878B /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D0A72CEC2BD3D72C00F0878B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0CD35562BC9E80E005F9E86 = {
 			isa = PBXGroup;
 			children = (
+				D0A72CE02BD3D3DC00F0878B /* Modules */,
 				D0CD35612BC9E80E005F9E86 /* MobLab */,
 				D0CD35782BC9E814005F9E86 /* MobLabTests */,
 				D0CD35822BC9E814005F9E86 /* MobLabUITests */,
 				D0CD35602BC9E80E005F9E86 /* Products */,
+				D0A72CEC2BD3D72C00F0878B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,14 +141,14 @@
 		D0CD35612BC9E80E005F9E86 /* MobLab */ = {
 			isa = PBXGroup;
 			children = (
+				D0A72CE62BD3D5E000F0878B /* Main */,
 				D0CD35922BC9EFB4005F9E86 /* MobLab.entitlements */,
 				D0CD35622BC9E80E005F9E86 /* AppDelegate.swift */,
 				D0CD35642BC9E80E005F9E86 /* SceneDelegate.swift */,
-				D0CD35662BC9E80E005F9E86 /* ViewController.swift */,
-				D0CD35682BC9E80E005F9E86 /* Main.storyboard */,
 				D0CD356B2BC9E813005F9E86 /* Assets.xcassets */,
 				D0CD356D2BC9E813005F9E86 /* LaunchScreen.storyboard */,
 				D0CD35702BC9E813005F9E86 /* Info.plist */,
+				D0A72CE42BD3D5B700F0878B /* AppManager.swift */,
 			);
 			path = MobLab;
 			sourceTree = "<group>";
@@ -145,6 +186,11 @@
 			dependencies = (
 			);
 			name = MobLab;
+			packageProductDependencies = (
+				D0A72CED2BD3D72C00F0878B /* HomeScene */,
+				D0A72CEF2BD3D72C00F0878B /* ProjectCore */,
+				D0A72CF22BD3D9F800F0878B /* SettingsScene */,
+			);
 			productName = MobLab;
 			productReference = D0CD355F2BC9E80E005F9E86 /* MobLab.app */;
 			productType = "com.apple.product-type.application";
@@ -235,7 +281,6 @@
 			files = (
 				D0CD356C2BC9E813005F9E86 /* Assets.xcassets in Resources */,
 				D0CD356F2BC9E813005F9E86 /* Base in Resources */,
-				D0CD356A2BC9E80E005F9E86 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0CD35672BC9E80E005F9E86 /* ViewController.swift in Sources */,
 				D0CD35632BC9E80E005F9E86 /* AppDelegate.swift in Sources */,
 				D0CD35652BC9E80E005F9E86 /* SceneDelegate.swift in Sources */,
+				D0A72CEA2BD3D62100F0878B /* MainViewController.swift in Sources */,
+				D0A72CE82BD3D5F100F0878B /* MainCoordinator.swift in Sources */,
+				D0A72CE52BD3D5B700F0878B /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +346,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D0CD35682BC9E80E005F9E86 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0CD35692BC9E80E005F9E86 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D0CD356D2BC9E813005F9E86 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,6 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MobLab/MobLab.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25RYDD756Z;
@@ -450,7 +490,7 @@
 				INFOPLIST_FILE = MobLab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +500,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.micheltlutz.MobLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,6 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MobLab/MobLab.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25RYDD756Z;
@@ -479,7 +521,7 @@
 				INFOPLIST_FILE = MobLab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -489,6 +531,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.micheltlutz.MobLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -611,6 +654,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0A72CED2BD3D72C00F0878B /* HomeScene */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeScene;
+		};
+		D0A72CEF2BD3D72C00F0878B /* ProjectCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProjectCore;
+		};
+		D0A72CF22BD3D9F800F0878B /* SettingsScene */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SettingsScene;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0CD35572BC9E80E005F9E86 /* Project object */;
 }
