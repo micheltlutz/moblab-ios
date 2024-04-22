@@ -20,7 +20,7 @@ The project has branches created for each tutorial
 - [All Branches](https://github.com/micheltlutz/moblab-ios/branches)
 
  Checkout the branchs:
-- [Universal links Part 1 (UniversalLink-pt1)](https://github.com/micheltlutz/moblab-ios/pull/new/UniversalLink-pt1) 
+- [Universal links Part 1 (UniversalLink-pt1)](https://github.com/micheltlutz/moblab-ios/tree/UniversalLink-pt1) 
 
 
 > The codes have different code complexities to make them educational for all levels of developers. 
