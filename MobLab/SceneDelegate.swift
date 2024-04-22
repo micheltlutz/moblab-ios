@@ -32,14 +32,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             return
         }
 
-        // Verifica se o URL possui um esquema associado
+        // Checks if the URL has an associated scheme
         if let scheme = url.scheme {
-            // Verifica se o esquema é o esperado
+            // Checks if the schema is as expected
             if scheme == "moblab" {
-                // Faça o que for necessário com o URL
-                // Por exemplo, manipule o URL para navegar para uma determinada tela
-                // ou extraia informações do URL para processamento adicional
-                
+                // Do whatever you need to with the URL
+                // For example, manipulate the URL to navigate to a certain screen
+                // or extract information from the URL for further processing
                 print("moblab > Scene Delegate: \(url)")
                 appManager?.start(with: url)
             }
