@@ -10,6 +10,8 @@
 	<array>
 		<string>applinks:moblab.micheltlutz.me</string>
 		<string>webcredentials:moblab.micheltlutz.me</string>
+		<string>applinks:moblab-dev.micheltlutz.me</string>
+		<string>webcredentials:example.com</string>
 	</array>
 </dict>
 </plist>
